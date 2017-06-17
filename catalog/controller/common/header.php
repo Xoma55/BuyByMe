@@ -87,6 +87,7 @@ class ControllerCommonHeader extends Controller {
 		$data['checkout'] = $this->url->link('checkout/checkout', '', 'SSL');
 		$data['contact'] = $this->url->link('information/contact');
 		$data['telephone'] = $this->config->get('config_telephone');
+        $data['config_email'] = $this->config->get('config_email');
 
 		$status = true;
 
@@ -143,7 +144,8 @@ class ControllerCommonHeader extends Controller {
 		$data['language'] = $this->load->controller('common/language');
 		$data['currency'] = $this->load->controller('common/currency');
 		$data['search'] = $this->load->controller('common/search');
-		$data['cart'] = $this->load->controller('common/cart');
+		//$data['cart'] = $this->load->controller('common/cart');
+        $data['top_cart'] = $this->load->controller('common/top_cart');
 
 		// For page specific css
 		if (isset($this->request->get['route'])) {

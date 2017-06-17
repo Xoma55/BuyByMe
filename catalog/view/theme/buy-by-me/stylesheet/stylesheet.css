@@ -745,3 +745,70 @@ h2.price {
     background-image: none;
     background-color: #df5c39;
 }
+
+/* Xoma55 */
+
+body header {
+	margin-top: 10px;
+}
+
+#header-middle {
+	/*margin-left: 25px;*/
+}
+
+#header-middle p:nth-child(1) {
+	font-size: 20pt;
+}
+
+#header-middle p:nth-child(2) {
+	font-size: 11pt;
+}
+
+#search {
+	/* margin-left: -15px; */
+	/*width: 75%;*/
+}
+
+#search .btn-lg {
+
+	background-image: none;
+	background-color: black;
+	color: white;
+	text-shadow: none;
+}
+
+#search .input-lg {
+	height: 38px;
+	margin-top: 1px;
+}
+
+#menu {
+	font-size: 16pt;
+	border-radius: 0px;
+	background-color: white;
+	background-image: none;
+	border: none;
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+}
+
+#menu .nav > li {
+	padding-right: 25px;
+
+}
+
+#menu .nav > li > a {
+	padding: 17px 17px 18px 15px;
+	color: black;
+	text-shadow: none;
+
+}
+#menu .nav > li > a:hover {
+	background-color: rgba(30, 120, 207, 0.38);
+}
+.cart-right p:nth-child(1) {
+
+	font-size: 11pt;
+	border-bottom: 1px dashed;
+
+}
